@@ -90,7 +90,7 @@ const RESPOND_THRESHOLD = 20;
  * The distance of touch start from the edge of the screen where the gesture will be recognized
  */
 const GESTURE_RESPONSE_DISTANCE_HORIZONTAL = 25;
-const GESTURE_RESPONSE_DISTANCE_VERTICAL = 135;
+const GESTURE_RESPONSE_DISTANCE_VERTICAL = 0;
 
 const animatedSubscribeValue = (animatedValue: Animated.Value) => {
   if (!animatedValue.__isNative) {
@@ -450,6 +450,7 @@ class CardStack extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#000000',
     // Header is physically rendered after scenes so that Header won't be
     // covered by the shadows of the scenes.
     // That said, we'd have use `flexDirection: 'column-reverse'` to move
