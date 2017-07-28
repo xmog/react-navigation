@@ -95,7 +95,7 @@ export default (
     ) {
 
       const action = NavigationActions.mapDeprecatedActionAndWarn(passedAction);
-      if (state && action.type === NavigationActions.NAVIGATE && routeName === state.routes[state.routes.length - 1].routeName) return null;
+      if (state && action.type === NavigationActions.NAVIGATE && action.routeName === state.routes[state.routes.length - 1].routeName) return null;
 
       // Set up the initial state if needed
       if (!state) {
