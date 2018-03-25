@@ -47,14 +47,13 @@ We have an active channel on the [Reactiflux](https://www.reactiflux.com/) commu
 
 ## Advanced guide
 
-- [Redux integration](https://reactnavigation.org/docs/guides/redux)
+- [Redux integration](https://reactnavigation.org/docs/redux-integration.html)
 - [Web integration](https://reactnavigation.org/docs/guides/web)
-- [Deep linking](https://reactnavigation.org/docs/guides/linking)
-- [Contributors guide](https://reactnavigation.org/docs/guides/contributors)
+- [Deep linking](https://reactnavigation.org/docs/deep-linking.html)
+- [Contributors guide](https://reactnavigation.org/docs/contributing.html)
 
 ## React Navigation API
 
-- [Navigators](https://reactnavigation.org/docs/navigators/)
-- [Routers](https://reactnavigation.org/docs/routers/)
-- [Views](https://reactnavigation.org/docs/views/)
-
+- [Navigators](https://reactnavigation.org/docs/custom-navigator-overview.html)
+- [Routers](https://reactnavigation.org/docs/routers.html)
+- [Views](https://reactnavigation.org/docs/navigation-views.html)
